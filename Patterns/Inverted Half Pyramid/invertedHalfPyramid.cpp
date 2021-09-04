@@ -16,6 +16,7 @@ int main() {
   int numberOfRows;
   cout << "Enter the number of rows for the pyramid: ";
   cin >> numberOfRows;
+  
   for (int i = numberOfRows; i > 0; i--) {
     for (int j = i; j > 0; j--) {
       cout << "* ";
