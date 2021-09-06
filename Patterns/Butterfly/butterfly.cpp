@@ -1,3 +1,13 @@
+// Butterfly
+// numberOfRows = 5
+// Output:
+// *         * 
+// * *     * * 
+// * * * * * * 
+// * * * * * * 
+// * *     * * 
+// *         * 
+
 #include<iostream>
 
 using std::cin;

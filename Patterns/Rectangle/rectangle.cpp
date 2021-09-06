@@ -1,6 +1,6 @@
 // Rectangle
-// Rows = 5
-// Columns = 4
+// rows = 5
+// columns = 4
 // Output:
 // * * * *
 // * * * *
