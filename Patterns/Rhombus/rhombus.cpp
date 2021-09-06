@@ -1,11 +1,11 @@
-// Inverted Triangle
+// Rhombus
 // numberOfRows = 5
 // Output:
-// 1 2 3 4 5 
-// 1 2 3 4 
-// 1 2 3 
-// 1 2 
-// 1 
+//         * * * * * 
+//       * * * * * 
+//     * * * * * 
+//   * * * * * 
+// * * * * *
 
 #include<iostream>
 
@@ -18,8 +18,11 @@ int main() {
   cin >> numberOfRows;
 
   for (int i = numberOfRows; i >= 1; i--) {
-    for (int j = 1; j <= i; j++) {
-      cout << j << " ";
+    for (int j = 1; j < i; j++) {
+      cout << "  ";
+    }
+    for (int k = 1; k <= numberOfRows; k++) {
+      cout << "* ";
     }
     cout << "\n";
   }

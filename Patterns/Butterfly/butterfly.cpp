@@ -1,5 +1,5 @@
 // Butterfly
-// numberOfRows = 5
+// numberOfRows = 3
 // Output:
 // *         * 
 // * *     * * 
@@ -41,4 +41,6 @@ int main() {
     }
     cout << "\n";
   }
+
+  return 0;
 }
