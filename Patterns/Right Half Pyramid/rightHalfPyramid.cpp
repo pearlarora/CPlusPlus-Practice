@@ -1,5 +1,5 @@
 // Right Half Pyramid 
-// numberOfRows = 5
+// n = 5
 // Output:
 //         *
 //       * *
@@ -13,13 +13,13 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows;
+  int n;
   cout << "Enter the number of rows: ";
-  cin >> numberOfRows;
+  cin >> n;
 
-  for (int i = 1; i <= numberOfRows; i++) {
-    for (int j = 1; j <= numberOfRows; j++) {
-      if ( j <= (numberOfRows-i) ) {
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= n; j++) {
+      if ( j <= (n-i) ) {
         cout << "  ";
       }
       else {

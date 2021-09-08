@@ -1,5 +1,5 @@
 // Inverted Half Pyramind
-// numberOfRows = 5
+// n = 5
 // Output:
 // * * * * *
 // * * * *
@@ -13,11 +13,11 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows;
+  int n;
   cout << "Enter the number of rows for the pyramid: ";
-  cin >> numberOfRows;
+  cin >> n;
   
-  for (int i = numberOfRows; i > 0; i--) {
+  for (int i = n; i > 0; i--) {
     for (int j = i; j > 0; j--) {
       cout << "* ";
     }

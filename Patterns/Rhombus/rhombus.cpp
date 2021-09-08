@@ -1,5 +1,5 @@
 // Rhombus
-// numberOfRows = 5
+// n = 5
 // Output:
 //         * * * * * 
 //       * * * * * 
@@ -13,15 +13,15 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows;
+  int n;
   cout << "Enter the number of rows: ";
-  cin >> numberOfRows;
+  cin >> n;
 
-  for (int i = numberOfRows; i >= 1; i--) {
+  for (int i = n; i >= 1; i--) {
     for (int j = 1; j < i; j++) {
       cout << "  ";
     }
-    for (int k = 1; k <= numberOfRows; k++) {
+    for (int k = 1; k <= n; k++) {
       cout << "* ";
     }
     cout << "\n";

@@ -1,5 +1,5 @@
 // Butterfly
-// numberOfRows = 3
+// rows = 3
 // Output:
 // *         * 
 // * *     * * 
@@ -14,14 +14,14 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows, numberOfColumns;
+  int rows, columns;
   cout << "Enter the number of rows: ";
-  cin >> numberOfRows;
-  numberOfColumns = numberOfRows * 2;
+  cin >> rows;
+  columns = rows * 2;
 
-  for (int i = 1; i <= numberOfRows; i++) {
-    for (int j = 1; j <= numberOfColumns; j++) {
-      if ( j <= i || j > (numberOfColumns - i) ) {
+  for (int i = 1; i <= rows; i++) {
+    for (int j = 1; j <= columns; j++) {
+      if ( j <= i || j > (columns - i) ) {
         cout << "* ";
       }
       else {
@@ -30,9 +30,9 @@ int main() {
     }
     cout << "\n";
   }
-  for (int i = numberOfRows; i >= 1; i--) {
-    for (int j = numberOfColumns; j >= 1; j--) {
-      if ( j <= i || j > (numberOfColumns - i) ) {
+  for (int i = rows; i >= 1; i--) {
+    for (int j = columns; j >= 1; j--) {
+      if ( j <= i || j > (columns - i) ) {
         cout << "* ";
       }
       else {

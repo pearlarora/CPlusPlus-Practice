@@ -1,5 +1,5 @@
 // 0-1 Left Pyramid
-// numberOfRows = 5
+// n = 5
 // Output:
 // 1 
 // 0 1 
@@ -13,11 +13,11 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows;
+  int n;
   cout << "Enter the number of rows: ";
-  cin >> numberOfRows;
+  cin >> n;
 
-  for (int i = 0; i < numberOfRows; i++) {
+  for (int i = 0; i < n; i++) {
     for (int j = 0; j <= i; j++) {
       if ((i+j) % 2 == 0) {
         cout << "1 ";

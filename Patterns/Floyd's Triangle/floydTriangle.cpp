@@ -1,5 +1,5 @@
 // Floyd's Triangle
-// numberOfRows = 5
+// n = 5
 // Output:
 // 1
 // 2  3
@@ -13,11 +13,11 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int numberOfRows, count = 1;
+  int n, count = 1;
   cout << "Enter the number of rows: ";
-  cin >> numberOfRows;
+  cin >> n;
 
-  for (int i = 0; i < numberOfRows; i++) {
+  for (int i = 0; i < n; i++) {
     for (int j = 0; j <= i; j++, count++) {
       cout << count << " ";
     }
