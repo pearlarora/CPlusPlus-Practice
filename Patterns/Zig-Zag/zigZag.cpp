@@ -10,7 +10,11 @@ int main() {
 
   for (int i = 0; i < 3; i++)
   {
-    /* code */
+    for (int j = 0; j < n; j++)
+    {
+      
+    }
+    
   }
   
 
