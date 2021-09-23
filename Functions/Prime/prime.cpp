@@ -11,7 +11,6 @@ int isPrime(int n) {
     if (n%i == 0)
     {
       return false;
-      exit(1);
     }
   }
   return true;
